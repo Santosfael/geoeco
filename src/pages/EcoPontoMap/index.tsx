@@ -10,7 +10,7 @@ export default function EcoPontoMap() {
   return (
     <View style={styles.container}>
       <MapView
-        style={styles.map} 
+        style={styles.map}
         provider={PROVIDER_GOOGLE}
         initialRegion={{
           latitude: -18.9127749,
@@ -19,30 +19,30 @@ export default function EcoPontoMap() {
           longitudeDelta: 0.008,
         }}
       >
-        <Marker 
+        <Marker
           icon={mapMarker}
           coordinate={{
             latitude: -18.9127749,
             longitude: -48.2755227,
           }}
         >
-          <Callout tooltip={true} onPress={() => {}}>
+          <Callout tooltip={true} onPress={() => { }}>
             <View style={styles.calloutContainer}>
-            <Text style={styles.calloutText}>Ecoponto L</Text>
+              <Text style={styles.calloutText}>Ecoponto L</Text>
             </View>
           </Callout>
         </Marker>
 
-        <Marker 
+        <Marker
           icon={mapMarker}
           coordinate={{
             latitude: -18.9115035,
             longitude: -48.3369172,
           }}
         >
-          <Callout tooltip={true} onPress={() => {}}>
+          <Callout tooltip={true} onPress={() => { }}>
             <View style={styles.calloutContainer}>
-            <Text style={styles.calloutText}>Ecoponto Luizote de Freitas</Text>
+              <Text style={styles.calloutText}>Ecoponto Luizote de Freitas</Text>
             </View>
           </Callout>
         </Marker>
