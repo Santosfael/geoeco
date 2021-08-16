@@ -4,7 +4,7 @@ import React from 'react';
 import { useFonts } from '@expo-google-fonts/nunito';
 import { Nunito_600SemiBold, Nunito_700Bold, Nunito_800ExtraBold } from '@expo-google-fonts/nunito';
 
-import { Routes } from './src/routes';
+import AppStack from './src/routes/AppStack';
 import { View } from 'react-native';
 
 export default function App() {
@@ -21,8 +21,8 @@ export default function App() {
 
   return (
     <>
-      <StatusBar style="light" />
-      <Routes />
+      <StatusBar style="auto" />
+      <AppStack />
     </>
   );
 }

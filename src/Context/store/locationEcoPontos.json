@@ -1,0 +1,147 @@
+{
+    "ecopontos": [
+        {
+            "id": 1,
+            "name": "Ecoponto Luizote de Freitas",
+            "address": "Rua Wilson Gonçalves de Souza",
+            "latitude": -18.9116768,
+            "longitude": -48.3367383,
+            "house_number": 10,
+            "district": "Luizote de Freitas",
+            "dayWeek": "Todos os dias da semana",
+            "opering_hours": "7h às 19h"
+        },
+        {
+            "id": 2,
+            "name": "Ecoponto São Jorge",
+            "address": "Avenida Serra do Mar",
+            "latitude": -18.9660809,
+            "longitude": -48.2262285,
+            "house_number": 411,
+            "district": "São Jorge",
+            "dayWeek": "Todos os dias da semana",
+            "opering_hours": "7h às 19h"
+        },
+        {
+            "id": 3,
+            "name": "Ecoponto Santa Rosa",
+            "address": "Rua Ângela Alckmin",
+            "latitude": -18.883825,
+            "longitude": -48.2737535,
+            "house_number": 211,
+            "district": "Santa Rosa",
+            "dayWeek": "Todos os dias da semana",
+            "opering_hours": "7h às 19h"
+        },
+        {
+            "id": 4,
+            "name": "Ecoponto Bairro Guarani",
+            "address": "Rua do Repentista",
+            "latitude": -18.8927927,
+            "longitude": -48.3272478,
+            "house_number": 350,
+            "district": "Guarani",
+            "dayWeek": "Todos os dias da semana",
+            "opering_hours": "7h às 19h"
+        },
+        {
+            "id": 5,
+            "name": "Ecoponto Roosevelt",
+            "address": "Rua Olívia de Freitas Guimarães",
+            "latitude": -18.8916973,
+            "longitude": -48.2915002,
+            "house_number": 950,
+            "district": "Presidente Roosevelt",
+            "dayWeek": "Todos os dias da semana",
+            "opering_hours": "7h às 19h"
+        },
+        {
+            "id": 6,
+            "name": "Ecoponto Daniel Fonseca",
+            "address": "Rua Itabira",
+            "latitude": -18.9118855,
+            "longitude": -48.3056497,
+            "house_number": 1720,
+            "district": "Daniel Fonseca",
+            "dayWeek": "Todos os dias da semana",
+            "opering_hours": "7h às 19h"
+        },
+        {
+            "id": 7,
+            "name": "Ecoponto Morumbi",
+            "address": "Rua campeio",
+            "latitude": -18.9241451,
+            "longitude": -48.193517,
+            "house_number": 247,
+            "district": "Morumbi",
+            "dayWeek": "Todos os dias da semana",
+            "opering_hours": "7h às 19h"
+        },
+        {
+            "id": 8,
+            "name": "Ecoponto São Lucas",
+            "address": "Rua do Cientista",
+            "latitude": -18.9436165,
+            "longitude": -48.319107,
+            "house_number": 0,
+            "district": "São Lucas",
+            "dayWeek": "Todos os dias da semana",
+            "opering_hours": "7h às 19h"
+        },
+        {
+            "id": 9,
+            "name": "Ecoponto Tocantins",
+            "address": "Rua Docelino de Freitas Costa",
+            "latitude": -18.9029319,
+            "longitude": -48.3410647,
+            "house_number": 0,
+            "district": "Tocantins",
+            "dayWeek": "Todos os dias da semana",
+            "opering_hours": "7h às 19h"
+        },
+        {
+            "id": 10,
+            "name": "Ecoponto Cruzeiro do Sul",
+            "address": "Rua Central",
+            "latitude": -18.866621,
+            "longitude": -48.2825843,
+            "house_number": 141,
+            "district": "Cruzeiro do Sul",
+            "dayWeek": "Todos os dias da semana",
+            "opering_hours": "7h às 19h"
+        },
+        {
+            "id": 11,
+            "name": "Ecoponto Segismundo Pereira",
+            "address": "Rua Professor Mario Godói",
+            "latitude": -18.9287024,
+            "longitude": -48.2221019,
+            "house_number": 300,
+            "district": "Segismundo Pereira",
+            "dayWeek": "Todos os dias da semana",
+            "opering_hours": "7h às 19h"
+        },
+        {
+            "id": 12,
+            "name": "Ecoponto Bairro Mansour",
+            "address": "Rua Rio Corumbá",
+            "latitude": -18.926928,
+            "longitude": -48.3394434,
+            "house_number": 20,
+            "district": "Mansour",
+            "dayWeek": "Todos os dias da semana",
+            "opering_hours": "7h às 19h"
+        },
+        {
+            "id": 13,
+            "name": "Ecoponto Jardim Canaã",
+            "address": "Av. Palestina",
+            "latitude": -18.9639791,
+            "longitude": -48.3240451,
+            "house_number": 0,
+            "district": "Jardim Canaã",
+            "dayWeek": "Todos os dias da semana",
+            "opering_hours": "7h às 19h"
+        }
+    ]
+}
