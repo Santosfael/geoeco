@@ -23,5 +23,6 @@ export const styles = StyleSheet.create({
     color: '#0089a5',
     fontSize: 14,
     fontFamily: 'Nunito_700Bold',
+    textAlign: 'center',
   }
 });

@@ -3,7 +3,7 @@ import MapView, { Callout, Marker, PROVIDER_GOOGLE } from 'react-native-maps';
 import { useNavigation } from '@react-navigation/native';
 import { Text, View } from 'react-native';
 
-import mapMarker from '../../assets/images/marker.png';
+import mapMarker from '../../assets/icons/marker.png';
 
 import locationEcoPonto from "../../Context/store/locationEcoPontos.json";
 

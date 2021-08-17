@@ -7,9 +7,9 @@ import Settings from '../pages/Settings';
 import EcoPontoMap from '../pages/EcoPontoMap';
 import Profile from '../pages/Profile';
 
-import mapaIcon from '../assets/images/mapa.png';
-import profileIcon from '../assets/images/user.png';
-import settingsIcon from '../assets/images/settings.png';
+import mapaIcon from '../assets/icons/mapa.png';
+import profileIcon from '../assets/icons/user.png';
+import settingsIcon from '../assets/icons/settings.png';
 
 type Props = {
     focused: boolean;
