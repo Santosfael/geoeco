@@ -1,7 +1,7 @@
 export type EcoPonto = {
     id: number;
     name: string;
-    address: string;
+    street: string;
     latitude: number;
     longitude: number;
     house_number: number;
