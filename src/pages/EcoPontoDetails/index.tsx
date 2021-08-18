@@ -1,8 +1,8 @@
-import React, { useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 
 import { FlatList, ScrollView } from 'react-native-gesture-handler';
 import { useRoute } from "@react-navigation/native";
-import { Image, Text, TouchableOpacity, View } from "react-native";
+import { Image, Linking, Text, TouchableOpacity, View } from "react-native";
 import { getPreciseDistance } from 'geolib';
 import MapView, { Marker } from 'react-native-maps';
 
@@ -21,40 +21,40 @@ type EcoPontoDetailsRouteParams = {
 const DATAIMG = [
     {
         id: 1,
-        image: {src: require('../../assets/images/ecoponto_roosveilt1.png')}
+        image: imageEcoPonts
     },
     {
         id: 2,
-        image: {src: require('../../assets/images/ecoponto_roosveilt1.png')}
+        image: imageEcoPonts
     },
     {
         id: 3,
-        image: {src: require('../../assets/images/ecoponto_roosveilt1.png')}
+        image: imageEcoPonts
     }
 ]
 
 export default function EcoPontoDetails() {
     const route = useRoute();
     const params = route.params as EcoPontoDetailsRouteParams;
-    const [ecoPonto, setEcoPonto ] = useState<EcoPonto>();
-    const [ distance, setDistance ] = useState<number>();
+    const [ecoPonto, setEcoPonto] = useState<EcoPonto>();
+    const [distance, setDistance] = useState<number>();
 
-    
+
 
     useEffect(() => {
         locationEcoPonto.ecopontos.map((response) => {
-            if(response.id === params.id) {
+            if (response.id === params.id) {
                 setEcoPonto(response);
             }
         });
 
-        if(ecoPonto?.latitude !== undefined && ecoPonto?.longitude !== undefined) {
-            setDistance(getPreciseDistance({latitude: -18.9127749, longitude: -48.2755227},{latitude: ecoPonto.latitude, longitude: ecoPonto.longitude}));
-        }        
-    },[ecoPonto, distance]);
+        if (ecoPonto?.latitude !== undefined && ecoPonto?.longitude !== undefined) {
+            setDistance(getPreciseDistance({ latitude: -18.9127749, longitude: -48.2755227 }, { latitude: ecoPonto.latitude, longitude: ecoPonto.longitude }));
+        }
+    }, [ecoPonto, distance]);
 
-    if(!ecoPonto) {
-        
+    if (!ecoPonto) {
+
         return (
             <View>
                 <Text>Carregando...</Text>
@@ -63,7 +63,7 @@ export default function EcoPontoDetails() {
     };
 
     function handleOpenGoogleMapsRoutes() {
-
+        Linking.openURL(`https://www.google.com/maps/dir/?api=1&destination=${ecoPonto?.latitude},${ecoPonto?.longitude}`);
     }
 
     return (
@@ -73,8 +73,9 @@ export default function EcoPontoDetails() {
                 showsHorizontalScrollIndicator={false}
                 data={DATAIMG}
                 pagingEnabled
-                renderItem={({item, index}) => (
-                    <Image source={imageEcoPonts} key={index} style={styles.imageEcoPonts} />
+                keyExtractor={(item, index) => item.id.toString()}
+                renderItem={({ item, index }) => (
+                    <Image source={item.image} key={index} style={styles.imageEcoPonts} />
                 )}
             />
 
@@ -83,7 +84,11 @@ export default function EcoPontoDetails() {
                 <Text style={styles.titleAddress}>Endereço:</Text>
                 <Text style={styles.address}>{ecoPonto.street}, Nº: {ecoPonto.house_number}, Bairro: {ecoPonto.district}</Text>
                 <Text style={styles.titleAddress}>Distância aproximada:</Text>
-                <Text style={styles.address}>{distance && distance/1000}Km</Text>
+                <Text style={styles.address}>{distance && distance / 1000}Km</Text>
+                <Text style={styles.titleAddress}>Horário de funcionamento:</Text>
+                <Text style={styles.address}>{ecoPonto.opering_hours}</Text>
+                <Text style={styles.titleAddress}>Dias de funcionamento:</Text>
+                <Text style={styles.address}>{ecoPonto.dayWeek}</Text>
 
                 <View style={styles.mapContainer}>
                     <MapView
@@ -99,7 +104,7 @@ export default function EcoPontoDetails() {
                         rotateEnabled={false}
                         style={styles.mapStyle}
                     >
-                        <Marker 
+                        <Marker
                             icon={mapMarker}
                             coordinate={{
                                 latitude: ecoPonto.latitude,
@@ -112,8 +117,6 @@ export default function EcoPontoDetails() {
                         <Text style={styles.routesText}>Ver rotas no Google Maps</Text>
                     </TouchableOpacity>
                 </View>
-
-                <View style={styles.separator} />
             </View>
         </ScrollView>
     );
