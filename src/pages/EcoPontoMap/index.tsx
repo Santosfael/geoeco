@@ -5,7 +5,7 @@ import { Text, View } from 'react-native';
 
 import mapMarker from '../../assets/icons/marker.png';
 
-import locationEcoPonto from "../../Context/store/locationEcoPontos.json";
+import locationEcoPonto from "../../core/database/locationEcoPontos.json";
 
 import { styles } from './styles';
 
@@ -46,7 +46,7 @@ export default function EcoPontoMap() {
           ecoPontos.map(ecoPonto => {
             return (
               <Marker
-               key={ecoPonto.id}
+                key={ecoPonto.id}
                 icon={mapMarker}
                 coordinate={{
                   latitude: ecoPonto.latitude,
@@ -62,7 +62,7 @@ export default function EcoPontoMap() {
             );
           })
         }
-        
+
       </MapView>
       <View>
         <Text>Menu footer</Text>

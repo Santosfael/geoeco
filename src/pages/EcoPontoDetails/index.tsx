@@ -6,7 +6,7 @@ import MapView, { Marker } from 'react-native-maps';
 import { useRoute } from "@react-navigation/native";
 import { getPreciseDistance } from 'geolib';
 
-import locationEcoPonto from '../../Context/store/locationEcoPontos.json';
+import locationEcoPonto from '../../core/database/locationEcoPontos.json';
 import { EcoPonto } from '../../core/types/EcoPontos';
 
 import { styles } from './styles';
@@ -59,7 +59,7 @@ export default function EcoPontoDetails() {
                 pagingEnabled
                 keyExtractor={(item, index) => item.id.toString()}
                 renderItem={({ item, index }) => (
-                    <Image source={{uri: item.url}} key={index} style={styles.imageEcoPonts} />
+                    <Image source={{ uri: item.url }} key={index} style={styles.imageEcoPonts} />
                 )}
             />
 
