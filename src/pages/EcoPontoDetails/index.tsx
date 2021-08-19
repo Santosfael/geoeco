@@ -1,37 +1,21 @@
 import React, { useEffect, useState } from 'react';
 
-import { FlatList, ScrollView } from 'react-native-gesture-handler';
-import { useRoute } from "@react-navigation/native";
 import { Image, Linking, Text, TouchableOpacity, View } from "react-native";
-import { getPreciseDistance } from 'geolib';
+import { FlatList, ScrollView } from 'react-native-gesture-handler';
 import MapView, { Marker } from 'react-native-maps';
+import { useRoute } from "@react-navigation/native";
+import { getPreciseDistance } from 'geolib';
 
 import locationEcoPonto from '../../Context/store/locationEcoPontos.json';
 import { EcoPonto } from '../../core/types/EcoPontos';
 
 import { styles } from './styles';
 
-import imageEcoPonts from '../../assets/images/ecoponto_roosveilt1.png';
 import mapMarker from '../../assets/icons/marker.png';
 
 type EcoPontoDetailsRouteParams = {
     id: number;
 }
-
-const DATAIMG = [
-    {
-        id: 1,
-        image: imageEcoPonts
-    },
-    {
-        id: 2,
-        image: imageEcoPonts
-    },
-    {
-        id: 3,
-        image: imageEcoPonts
-    }
-]
 
 export default function EcoPontoDetails() {
     const route = useRoute();
@@ -71,11 +55,11 @@ export default function EcoPontoDetails() {
             <FlatList
                 horizontal={true}
                 showsHorizontalScrollIndicator={false}
-                data={DATAIMG}
+                data={ecoPonto.images}
                 pagingEnabled
                 keyExtractor={(item, index) => item.id.toString()}
                 renderItem={({ item, index }) => (
-                    <Image source={item.image} key={index} style={styles.imageEcoPonts} />
+                    <Image source={{uri: item.url}} key={index} style={styles.imageEcoPonts} />
                 )}
             />
 

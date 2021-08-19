@@ -2,6 +2,20 @@
     "ecopontos": [
         {
             "id": 1,
+            "images": [
+                {
+                    "id": 1,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                },
+                {
+                    "id": 2,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                },
+                {
+                    "id": 3,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                }
+            ],
             "name": "Ecoponto Luizote de Freitas",
             "street": "Rua Wilson Gonçalves de Souza",
             "latitude": -18.9116768,
@@ -13,6 +27,20 @@
         },
         {
             "id": 2,
+            "images": [
+                {
+                    "id": 1,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                },
+                {
+                    "id": 2,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                },
+                {
+                    "id": 3,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                }
+            ],
             "name": "Ecoponto São Jorge",
             "street": "Avenida Serra do Mar",
             "latitude": -18.9660809,
@@ -24,6 +52,20 @@
         },
         {
             "id": 3,
+            "images": [
+                {
+                    "id": 1,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                },
+                {
+                    "id": 2,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                },
+                {
+                    "id": 3,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                }
+            ],
             "name": "Ecoponto Santa Rosa",
             "street": "Rua Ângela Alckmin",
             "latitude": -18.883825,
@@ -35,6 +77,20 @@
         },
         {
             "id": 4,
+            "images": [
+                {
+                    "id": 1,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                },
+                {
+                    "id": 2,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                },
+                {
+                    "id": 3,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                }
+            ],
             "name": "Ecoponto Bairro Guarani",
             "street": "Rua do Repentista",
             "latitude": -18.8927927,
@@ -46,6 +102,20 @@
         },
         {
             "id": 5,
+            "images": [
+                {
+                    "id": 1,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                },
+                {
+                    "id": 2,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                },
+                {
+                    "id": 3,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                }
+            ],
             "name": "Ecoponto Roosevelt",
             "street": "Rua Olívia de Freitas Guimarães",
             "latitude": -18.8916973,
@@ -57,6 +127,20 @@
         },
         {
             "id": 6,
+            "images": [
+                {
+                    "id": 1,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                },
+                {
+                    "id": 2,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                },
+                {
+                    "id": 3,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                }
+            ],
             "name": "Ecoponto Daniel Fonseca",
             "street": "Rua Itabira",
             "latitude": -18.9118855,
@@ -68,6 +152,20 @@
         },
         {
             "id": 7,
+            "images": [
+                {
+                    "id": 1,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                },
+                {
+                    "id": 2,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                },
+                {
+                    "id": 3,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                }
+            ],
             "name": "Ecoponto Morumbi",
             "street": "Rua campeio",
             "latitude": -18.9241451,
@@ -79,6 +177,20 @@
         },
         {
             "id": 8,
+            "images": [
+                {
+                    "id": 1,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                },
+                {
+                    "id": 2,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                },
+                {
+                    "id": 3,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                }
+            ],
             "name": "Ecoponto São Lucas",
             "street": "Rua do Cientista",
             "latitude": -18.9436165,
@@ -90,6 +202,20 @@
         },
         {
             "id": 9,
+            "images": [
+                {
+                    "id": 1,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                },
+                {
+                    "id": 2,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                },
+                {
+                    "id": 3,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                }
+            ],
             "name": "Ecoponto Tocantins",
             "street": "Rua Docelino de Freitas Costa",
             "latitude": -18.9029319,
@@ -101,6 +227,20 @@
         },
         {
             "id": 10,
+            "images": [
+                {
+                    "id": 1,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                },
+                {
+                    "id": 2,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                },
+                {
+                    "id": 3,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                }
+            ],
             "name": "Ecoponto Cruzeiro do Sul",
             "street": "Rua Central",
             "latitude": -18.866621,
@@ -112,6 +252,20 @@
         },
         {
             "id": 11,
+            "images": [
+                {
+                    "id": 1,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                },
+                {
+                    "id": 2,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                },
+                {
+                    "id": 3,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                }
+            ],
             "name": "Ecoponto Segismundo Pereira",
             "street": "Rua Professor Mario Godói",
             "latitude": -18.9287024,
@@ -123,6 +277,20 @@
         },
         {
             "id": 12,
+            "images": [
+                {
+                    "id": 1,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                },
+                {
+                    "id": 2,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                },
+                {
+                    "id": 3,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                }
+            ],
             "name": "Ecoponto Bairro Mansour",
             "street": "Rua Rio Corumbá",
             "latitude": -18.926928,
@@ -134,6 +302,20 @@
         },
         {
             "id": 13,
+            "images": [
+                {
+                    "id": 1,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                },
+                {
+                    "id": 2,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                },
+                {
+                    "id": 3,
+                    "url": "https://t.ctcdn.com.br/8FplhVkDQdAatiUcehCimgkGJlI=/512x288/smart/i257652.jpeg"
+                }
+            ],
             "name": "Ecoponto Jardim Canaã",
             "street": "Av. Palestina",
             "latitude": -18.9639791,

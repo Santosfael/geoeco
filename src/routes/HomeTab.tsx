@@ -67,10 +67,10 @@ export default function HomeTab() {
                                 style={{
                                     width: 36,
                                     height: 36,
-                                    tintColor: focused ? '#e32f45' : '#748c94',
+                                    tintColor: focused ? '#8eab57' : '#748c94',
                                 }}
                             />
-                            <Text style={{ color: focused ? '#e32f45' : '#748c94', fontSize: 12 }}>Profile</Text>
+                            <Text style={{ color: focused ? '#8eab57' : '#748c94', fontSize: 12 }}>Profile</Text>
                         </View>
                     ),
                 }}
@@ -112,10 +112,10 @@ export default function HomeTab() {
                                 style={{
                                     width: 36,
                                     height: 36,
-                                    tintColor: focused ? '#e32f45' : '#748c94',
+                                    tintColor: focused ? '#8eab57' : '#748c94',
                                 }}
                             />
-                            <Text style={{ color: focused ? '#e32f45' : '#748c94', fontSize: 12 }}>Settings</Text>
+                            <Text style={{ color: focused ? '#8eab57' : '#748c94', fontSize: 12 }}>Settings</Text>
                         </View>
                     ),
                 }}

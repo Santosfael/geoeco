@@ -1,5 +1,6 @@
 export type EcoPonto = {
     id: number;
+    images: images[],
     name: string;
     street: string;
     latitude: number;
@@ -8,4 +9,9 @@ export type EcoPonto = {
     district: string;
     dayWeek: string;
     opering_hours: string;
-}
+};
+
+type images = {
+    id: number;
+    url: string;
+};
