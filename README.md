@@ -44,8 +44,8 @@ In the project directory, you can run:
 - [x] file.json in: /src/core/database/locationEcoPontos.json
 
 ## Future implementations
- - [] Screen Sign In
- - [] Screen Sign Up
- - [] Screen Forgot password
- - [] Screen Settings
- - [] Screen Record the delivery of the disposal
+ - [ ] Screen Sign In
+ - [ ] Screen Sign Up
+ - [ ] Screen Forgot password
+ - [ ] Screen Settings
+ - [ ] Screen Record the delivery of the disposal
